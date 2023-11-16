@@ -1,0 +1,1 @@
+{"name":"Local: class","url":"e:\\phitron\\c++_dsa\\class.cpp","tests":[{"id":1700028001812,"input":"ashikul islam\n10 4.35\nmaria mehrab\n17 3.35","output":"ashikul islam\n10 4.35\nmaria mehrab\n17 3.35"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\phitron\\c++_dsa\\class.cpp","group":"local","local":true}
