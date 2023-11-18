@@ -4,20 +4,21 @@ using namespace std;
 int main()
 {
 
-    string f;
-    // string s;
-    while(cin>>f){
-    // getline(cin, f);
-    f.erase(remove(f.begin(), f.end(), ' '), f.end());
-    sort(f.begin(), f.end());
-    cout << f;
-    }
-    // getline(cin, s);
-    
+    char s[100001];
 
-    // s.erase(remove(s.begin(), s.end(), ' '), s.end());
-    // sort(s.begin(), s.end());
-    // cout << s<<endl;
+    while (cin.getline(s, 100001))
+    {
+        int len = strlen(s);
+        sort(s, s + len);
+        for (int i = 0; i < len; i++)
+        {
+            if (s[i] != ' ')
+            {
+                cout << s[i];
+            }
+        }
+        cout << endl;
+    }
 
     return 0;
 }
