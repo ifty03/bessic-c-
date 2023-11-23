@@ -1,3 +1,3 @@
-10 20
-30 40
-50 60
+ashik 1 50
+abdullah 2 90
+moriom 3 95
